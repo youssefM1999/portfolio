@@ -1,0 +1,243 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  width: 550px;
+  height: 868px;
+  opacity: 1;
+  background: #23252C;
+  transform: rotate(0deg);
+}
+
+.profile {
+  width: 317px;
+  height: 317px;
+  top: 44px;
+  left: 116px;
+  transform: rotate(0deg);
+  opacity: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.body {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  top: 361px;
+  left: 116px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background: #1A1B21;
+}
+
+.name {
+  position: absolute;
+  width: 178.06451416015625px;
+  height: 25.80645179748535px;
+  top: 21px;
+  left: 70px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  position: absolute;
+  width: 178.06451416015625px;
+  height: 14.193548202514648px;
+  top: 80px;
+  left: 70px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12.8px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #F3BF99;
+  margin: 0;
+  padding: 0;
+}
+
+.email-button {
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  top: 107px;
+  left: 35px;
+  transform: rotate(0deg);
+  opacity: 1;
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border: 1px solid #D1D5DB;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #374151;
+}
+
+.linkedin-button {
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  top: 107px;
+  left: 165px;
+  transform: rotate(0deg);
+  opacity: 1;
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #FFFFFF;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.section-title {
+  position: absolute;
+  width: 242.71180725097656px;
+  height: 21px;
+  top: 174px;
+  left: 36px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+.section-description {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  top: 200px;
+  left: 36px;
+  transform: rotate(0deg);
+  opacity: 1;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #DCDCDC;
+  margin: 0;
+  padding: 0;
+}
+
+/* First section (About) */
+.about-title {
+  /* top: 220px; */
+}
+
+.about-description {
+  /* top: 266px; */
+}
+
+/* Second section (Interests) */
+.interests-title {
+  top: 260px;
+}
+
+.interests-description {
+  top: 286px;
+}
+
+.socials {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  top: 360px;
+  /* left: 116px; */
+  transform: rotate(0deg);
+  opacity: 1;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  background: #161619;
+}
+
+.socials a {
+  color: #918E9B;
+  text-decoration: none;
+  font-size: 25px;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #FFFFFF;
+}
+
