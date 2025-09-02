@@ -28,6 +28,9 @@
   border-top-right-radius: 10px;
   position: absolute;
   object-fit: cover;
+  image-rendering: high-quality;
+  image-rendering: -webkit-optimize-contrast;
+  filter: none;
 }
 
 .body {

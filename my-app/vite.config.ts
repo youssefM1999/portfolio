@@ -12,11 +12,15 @@ export default defineConfig({
         assetFileNames: (assetInfo) => {
           // Preserve original image names and extensions
           if (assetInfo.name && /\.(png|jpe?g|gif|svg|webp)$/i.test(assetInfo.name)) {
-            return 'assets/[name]-[hash][extname]'
+            return 'assets/[name][extname]'
           }
           return 'assets/[name]-[hash][extname]'
         }
       }
     }
+  },
+  // Disable asset optimization completely
+  optimizeDeps: {
+    exclude: ['*.jpg', '*.jpeg', '*.png', '*.gif', '*.svg', '*.webp']
   }
 })

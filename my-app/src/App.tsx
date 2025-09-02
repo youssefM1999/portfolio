@@ -5,7 +5,14 @@ function App() {
 
   return (
     <main className='main'>
-      <img src="/portfolio/formal-pic.JPG" alt="profile" className='profile' />
+      <img 
+        src="/portfolio/formal-pic.JPG" 
+        alt="profile" 
+        className='profile'
+        loading="eager"
+        decoding="sync"
+        style={{ imageRendering: 'auto' }}
+      />
       <Body className="body" />
     </main>
   )
