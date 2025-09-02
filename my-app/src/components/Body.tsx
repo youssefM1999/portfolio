@@ -19,7 +19,7 @@ export default function Body({ className }: BodyProps) {
         <p className="email-text">Email</p>
       </button>
       <button className="linkedin-button"
-      onClick={() => window.open('https://www.linkedin.com/in/youssef-mahmoud-6a0140224/')}
+      onClick={() => window.open('https://www.linkedin.com/in/youssef-h-mahmoud/')}
       >
         <FaLinkedinIn />
         <p className="linkedin-text">LinkedIn</p>
