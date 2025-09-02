@@ -1,8 +1,12 @@
 import { FaGithub, FaInstagram, FaStrava } from 'react-icons/fa';
 
-export const Socials = () => {
+type SocialsProps = {
+  className?: string;
+}
+
+export const Socials = ({ className }: SocialsProps) => {
   return (
-    <div className='socials'>
+    <div className={className || 'socials'}>
       <a href="https://github.com/youssefM1999" target="_blank" rel="noopener noreferrer">
         <FaGithub />
       </a>
