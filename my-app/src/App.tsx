@@ -6,7 +6,7 @@ function App() {
   return (
     <main className='main'>
       <img 
-        src="/portfolio/formal-pic-optimized.jpg" 
+        src="/portfolio/formal-pic.JPG" 
         alt="profile" 
         className='profile'
       />
